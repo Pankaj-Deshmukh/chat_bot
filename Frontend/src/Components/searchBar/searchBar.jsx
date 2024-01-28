@@ -7,7 +7,7 @@ function SearchBar() {
   const [val, setVal] = useState('');
   const handleChange = (e) => {
     setVal(e.target.value);
-  }
+}
 
   useEffect(() => {
     textAreaRef.current.style.height = 'auto';

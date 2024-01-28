@@ -1,10 +1,14 @@
 import React from 'react'
-import dialogueBox from "./dialogueBox.module.css"
+import Styles from './dialogueBox.module.css';
 
-function dialogueBox() {
+function DialogueBox() {
   return (
-    <div>dialogueBox</div>
+    <div className={Styles.outer}>
+      <p>
+        
+      </p> 
+    </div>
   )
 }
 
-export default dialogueBox
+export default DialogueBox

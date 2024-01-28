@@ -1,0 +1,15 @@
+.outer {
+      font-family: 'Ubuntu', sans-serif;
+      border: 1px solid #040303;
+      padding: 16px;
+      margin: 50px;
+      border-radius: 7px;
+      color: black;
+      box-shadow: 0 0 10px black;
+      max-width: 100%;
+      word-wrap: break-word; /* Add this line to allow words to break and wrap */
+}
+.outer p {
+      margin: 0;
+}
+    
