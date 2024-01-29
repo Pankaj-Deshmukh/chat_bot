@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MdOutlineFileUpload } from "react-icons/md";
 import './searchBar.css';
+import { useAnswer } from '../../hooks/searchBody';
 
 function SearchBar() {
   const textAreaRef = useRef(null);
@@ -9,7 +10,7 @@ function SearchBar() {
     setVal(e.target.value);
 }
 
-  useEffect(() => {
+useEffect(() => {
     textAreaRef.current.style.height = 'auto';
     textAreaRef.current.style.height = textAreaRef.current.scrollHeight + "px";
   }, [val])
