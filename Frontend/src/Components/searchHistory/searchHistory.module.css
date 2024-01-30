@@ -1,0 +1,19 @@
+.outer {
+      font-family: 'Ubuntu', sans-serif;
+      width: 90% ;
+      height: auto;
+      border: none;
+      padding: 12px;
+      margin: auto;
+      border-radius: 5px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+      max-width: 100%;
+      word-wrap: break-word; /* Add this line to allow words to break and wrap */
+}
+.outer p {
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+}
+    

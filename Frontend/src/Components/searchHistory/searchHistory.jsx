@@ -1,9 +1,13 @@
 import React from 'react'
-import searchHistort from './searchHistort.module.css'
+import Style from './searchHistory.module.css'
 
 function searchHistory() {
   return (
-    <div>searchHistory</div>
+    <div className={Style.outer}>
+      <p>
+        hdsfheuhbkffhhuehjhhkfahuuuhjhuyeurhfhahfkjhadfhajhjfjkdhflhfskhdjshkfjdhuhejhfhafoahbafhhpankja fdjfdfhfhjkhfklh
+      </p> 
+    </div>
   )
 }
 

@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-const axios = require('axios');
+// const axios = require('axios');
 
 export function useAnswer(searchTerm){
       const [answer, setAnswer] = useState("");
