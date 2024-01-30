@@ -12,8 +12,8 @@ function App() {
     <>
       {/* <SearchBar/> */}
       {/* <DialogueBox /> */}
-      {/* <User/> */}
-      <SearchHistory />
+      <User/>
+      {/* <SearchHistory /> */}
     </>
   )
 }
